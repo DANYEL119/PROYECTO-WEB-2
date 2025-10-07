@@ -40,7 +40,7 @@ input[type="submit"]{
     cursor: pointer;
     margin-left: 35%;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 480px){
     body{
         background-image: url("../imagenes/fondo-para-celular.jpg");
     }
@@ -52,3 +52,4 @@ input[type="submit"]{
         margin-bottom: 20px;
     }
 }
+
