@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+
+<style>
+.card {
+  width: 250px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1); /* 🔍 efecto zoom */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4); /* sombra más fuerte */
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card h3, .card p {
+  text-align: center;
+  margin: 10px;
+}
+</style>
+
+<body>
+  <div class="card">
+  <img src="https://via.placeholder.com/250x150" alt="Imagen">
+  <h3>Título de la Card</h3>
+  <p>Texto descriptivo de la card.</p>
+</div>
+</body>
+</html>

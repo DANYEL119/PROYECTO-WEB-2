@@ -1,0 +1,54 @@
+body{
+    background-image: url("../imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form1, .form2{
+    background-color: rgba(250, 250, 229, 0.808);
+    width: fit-content;
+    height: fit-content;
+    border: solid 2px black;
+    border-radius: 20px;
+    
+}
+form{
+    margin: 20px;
+    padding: 10px;
+}
+input[type="text"],input[type="number"]{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+@media screen and (max-width: 800px){
+    body{
+        background-image: url("../imagenes/fondo-para-celular.jpg");
+    }
+    .container{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .form1, .form2{
+        margin-bottom: 20px;
+    }
+}
