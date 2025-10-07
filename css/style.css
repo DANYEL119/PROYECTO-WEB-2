@@ -114,7 +114,7 @@ footer{
 footer .derechos{
     grid-column: 1/4;
 } 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 480px){
     .container{
         display: inline-flex;
         flex-direction: column;
@@ -177,4 +177,5 @@ footer .derechos{
         grid-column: 1 / -1; /* ocupa toda la fila */
         
     }
+
 }
